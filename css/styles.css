@@ -41,7 +41,18 @@ img {
     max-width: 100%;
     height: auto;
 }
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 /*-------HEADER----------*/
 
@@ -52,6 +63,7 @@ display: flex;
 .navigation {
     display: flex;
     flex-grow: 1;
+    align-items: center;
 
 }
 
@@ -72,14 +84,15 @@ display: flex;
 .header-contacts-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0 ;
 }
 .navigation-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .header{
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 
@@ -90,6 +103,7 @@ display: flex;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2E2F42;
+
 
 }
 
@@ -137,11 +151,7 @@ color: #404BBF;
 .hero-section {
     background-color: #2E2F42;
     max-width: 100%;
-    padding-top: 188px;
-    padding-bottom: 292px;
-    padding-left: 0;
-    padding-right:0;
-    margin: 0 auto;
+    padding: 188px 0;
         
 }          
 .hero-wrap{
@@ -160,7 +170,7 @@ color: #404BBF;
     letter-spacing: 0.02em;
     text-align: center;
     color:#FFFFFF ;
-    max-width: 525px;
+    max-width: 496px;
     max-height: 120px;
     margin-bottom: 48px;
   
@@ -176,15 +186,18 @@ color: #404BBF;
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
+    display: block;
     margin: 0 auto;
     display: flex;
      align-items: center;
      flex-wrap: nowrap;
-     border:none;
+     
      gap: 10px;
      border-radius: 4px;
      padding: 16px 32px;
-     max-width: 169px;
+     min-width: 169px;
+     height: 56px;
+    border: none;
      box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     white-space: nowrap;
      
@@ -197,7 +210,7 @@ color: #404BBF;
 
 /*-------Opportunitie-SECTION----------*/
 .opportunities {
-padding: 120px 156px;
+padding: 120px 0px;
 }
 
 .opportunities-list {
@@ -216,6 +229,7 @@ width:calc((100% - 3 * 24px)/4);
         letter-spacing: 0.02em;
         color: #2E2F42;
         margin-bottom: 8px;
+        
 }
 
 .opportunities-text {
@@ -224,11 +238,12 @@ width:calc((100% - 3 * 24px)/4);
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        
 }
 /*-------our-team----------*/
 .our-team {
     background-color: #F4F4FD;
-}
+    padding: 32px 0;}
 
 .our-team-title {
     font-family: 'Raleway', sans-serif;
@@ -239,7 +254,7 @@ width:calc((100% - 3 * 24px)/4);
         text-align: center;
         color: #2E2F42;
         text-transform: capitalize;
-        margin-bottom:72px;
+        margin-bottom: 72px;
     }
 
 .our-team-list {
@@ -283,6 +298,7 @@ width:calc((100% - 3 * 24px)/4);
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
+        margin-bottom: 8px;
 }
 
 .our-team-text {
@@ -382,6 +398,7 @@ width:calc((100% - 3 * 24px)/4);
     margin-top: 100px;
     margin-right: 76px;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 
