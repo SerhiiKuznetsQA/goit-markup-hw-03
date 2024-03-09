@@ -5,7 +5,7 @@
 }
 body{
     font-family: 'Roboto' , sans-serif;
-   color:#434455 ;
+    color:#434455 ;
     background-color: #fff;
    
 }
@@ -326,6 +326,7 @@ width:calc((100% - 3 * 24px)/4);
     align-items: flex-start;
     column-gap: 24px;
     row-gap: 48px; 
+    
 }
 
 .portfolio-item {
@@ -334,12 +335,14 @@ width:calc((100% - 3 * 24px)/4);
         align-items: flex-start;
         justify-content: center;
         flex-direction: column;
+       
         
+    
 }
 
 .portfolio-picture {
-
 }
+
 .cart-boarder{
     display: flex;
     align-items: flex-start;
@@ -350,7 +353,7 @@ width:calc((100% - 3 * 24px)/4);
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
     max-width:360px;
-    height: 120px;
+    min-height: 120px;
     padding: 32px 16px;
 }
 
