@@ -60,12 +60,7 @@ img {
 display: flex;
 }
 
-.navigation {
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    padding: 24px 0;
-}
+
 
 .header-logo {
         font-family: "Raleway", sans-serif;
@@ -86,15 +81,20 @@ display: flex;
     gap: 40px;
     padding: 24px 0;
 }
+
+.navigation {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
 .navigation-list {
     display: flex;
     gap: 40px;
     
     
 }
-.header{
 
-}
 
 
 
@@ -104,6 +104,7 @@ display: flex;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2E2F42;
+    padding: 24px 0;
 
 
 }
