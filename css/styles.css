@@ -136,7 +136,7 @@ color: #404BBF;
 
 .hero-section {
     background-color: #2E2F42;
-    max-width: 1440px;
+    max-width: 100%;
     padding-top: 188px;
     padding-bottom: 292px;
     padding-left: 0;
@@ -338,7 +338,7 @@ width:calc((100% - 3 * 24px)/4);
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
-    width: 360px;
+    max-width:360px;
     height: 120px;
     padding: 32px 16px;
 }
@@ -366,7 +366,7 @@ width:calc((100% - 3 * 24px)/4);
 /*-------Footer----------*/
 .footer {
     background-color: #2E2F42;
-    height: 312px;
+    width: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -407,4 +407,5 @@ width:calc((100% - 3 * 24px)/4);
         margin-right: 76px;
         max-width: 264px;
         margin-top: 8px;
+        
 }
