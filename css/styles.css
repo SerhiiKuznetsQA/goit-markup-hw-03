@@ -352,7 +352,7 @@ width:calc((100% - 3 * 24px)/4);
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
-    max-width:360px;
+    width:360px;
     min-height: 120px;
     padding: 32px 16px;
 }
