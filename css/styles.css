@@ -64,6 +64,7 @@ display: flex;
     display: flex;
     flex-grow: 1;
     align-items: center;
+    padding: 24px 0;
 
 }
 
@@ -89,7 +90,7 @@ display: flex;
 .navigation-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    
 }
 .header{
 
@@ -152,16 +153,13 @@ color: #404BBF;
     background-color: #2E2F42;
     max-width: 100%;
     padding: 188px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
         
 }          
-.hero-wrap{
-    display: flex;
-   flex-direction: column;
-   justify-content: center;
-    align-items: center;
-
-}
-
 .hero-title {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -171,7 +169,7 @@ color: #404BBF;
     text-align: center;
     color:#FFFFFF ;
     max-width: 496px;
-    max-height: 120px;
+    min-height: 120px;
     margin-bottom: 48px;
   
 }
@@ -191,7 +189,6 @@ color: #404BBF;
     display: flex;
      align-items: center;
      flex-wrap: nowrap;
-     
      gap: 10px;
      border-radius: 4px;
      padding: 16px 32px;
@@ -210,7 +207,7 @@ color: #404BBF;
 
 /*-------Opportunitie-SECTION----------*/
 .opportunities {
-padding: 120px 0px;
+padding: 120px 0;
 }
 
 .opportunities-list {
@@ -282,7 +279,7 @@ width:calc((100% - 3 * 24px)/4);
     justify-content: center;
     flex-direction: column;
     gap: 8px;
-    padding: 32px 16px;
+    padding: 32px 0px;
 }
 
 .our-team-img {
